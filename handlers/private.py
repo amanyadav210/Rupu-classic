@@ -12,7 +12,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hᴇʏ Hᴏᴛᴛɪᴇ Sʜᴏᴛᴛɪᴇ {message.from_user.first_name}** \n
 **I Aᴍ A Mᴜsɪᴄ Sᴇʀᴠᴇʀ Fᴏʀ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Vᴏɪᴄᴇ Cʜᴀᴛ & Cʜᴀɴɴᴇʟs 😉🌸 Usᴇ Mᴇ Hᴀʀᴅʟʏ & Eɴᴊᴏʏ Mᴜsɪᴄ Wɪᴛʜ Sᴜᴘᴇʀ Dᴜᴘᴇʀ Qᴜᴀʟɪᴛʏ 😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝐍 𝐢 𝐭 𝐫 𝐢 𝐜 𓆩👅𓆪]**(https://t.me/official_nitric).
+Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝐍 𝐢 𝐭 𝐫 𝐢 𝐜 𓆩👅𓆪](https://t.me/official_nitric)**.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
