@@ -22,7 +22,7 @@ def song(client, message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    m = message.reply('🚸 ᴄᴏɴɴᴇᴄᴛɪɴɢ ɴᴀɴᴅᴜ sᴇʀᴠᴇʀ...')
+    m = message.reply("🚸 ᴄᴏɴɴᴇᴄᴛɪɴɢ ɴᴀɴᴅᴜ sᴇʀᴠᴇʀ...")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit('⚠️ ᴘᴇʀᴍɪssɪᴏɴ ᴅᴇɴɪᴇᴅ ʙʏ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ, ᴛᴀᴋᴇ ᴘᴇʀᴍɪssɪᴏɴ ғʀᴏᴍ ᴍʏ ᴏᴡɴᴇʀ...')
+        m.edit("⚠️ ᴘᴇʀᴍɪssɪᴏɴ ᴅᴇɴɪᴇᴅ ʙʏ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ, ᴛᴀᴋᴇ ᴘᴇʀᴍɪssɪᴏɴ ғʀᴏᴍ ᴍʏ ᴏᴡɴᴇʀ...")
         print(e)
 
     try:
