@@ -28,7 +28,7 @@ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝑹𝑼𝑷𝑷𝑨](https://t.me/ITZ_RUPU)**.
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "Aᴅᴅ ᴍʏ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴀʀʟɪɴɢ🤭.", url=f"https://t.me/itzrupu_vcbot"
+                        "Aᴅᴅ ᴍʏ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴀʀʟɪɴɢ🤭", url=f"https://t.me/itzrupu_vcbot?startgroup=true"
                     )]
             ]
         ),
