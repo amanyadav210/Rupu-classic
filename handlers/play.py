@@ -117,20 +117,20 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**ɴᴀɴᴅᴜ's ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ 👍🏻 ɴᴏᴡ ᴘʟᴀʏ ʏᴏᴜʀ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ** ❣️"
+                        message.chat.id, "**ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ 👍🏻 ɴᴏᴡ ᴘʟᴀʏ ʏᴏᴜʀ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ** ❣️"
                     )
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"⚠️ **ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ ⚠️ ᴄʜᴇᴄᴋ ᴍᴀʏʙᴇ ɴᴀɴᴅᴜ's ᴀssɪᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ᴏʀ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ**."
+                        f"⚠️ **ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ ⚠️ ᴄʜᴇᴄᴋ ᴍᴀʏʙᴇ ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ᴏʀ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ**."
                     )
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"😒 **ɴᴀɴᴅᴜ's ᴀssɪsᴛᴀɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴏ sᴇɴᴅ /play ᴄᴏᴍᴍᴀɴᴅ ғɪʀsᴛ ᴛᴏ ᴊᴏɪɴ ᴀssɪsᴛᴀɴᴛ ʜᴇʀᴇ**."
+            f"😒 **ᴀssɪsᴛᴀɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴏ sᴇɴᴅ /userbotjoin ᴄᴏᴍᴍᴀɴᴅ ғɪʀsᴛ ᴛᴏ ᴊᴏɪɴ ᴀssɪsᴛᴀɴᴛ ʜᴇʀᴇ**."
         )
         return
 
@@ -144,7 +144,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ** ️🤞."
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs..Sᴇᴀʀᴄʜ ғᴏʀ sᴍᴀʟʟ ᴍᴜsɪᴄ.** ️🤞."
             )
 
         file_name = get_file_name(audio)
@@ -158,9 +158,9 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="💡 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Sanki_BOTs"
+                        text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
                     ),
-                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🌸", url=f"https://t.me/Black_Rose_QUEEN"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ🎵", url=f"https://t.me/shivamdemon"),
                 ]
             ]
         )
@@ -197,10 +197,14 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="💡 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Sanki_BOTs"
+                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
                         ),
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇʀ 🌸", url=f"https://t.me/Black_Rose_QUEEN"
+                            text="Gᴇᴛ ᴍᴜsɪᴄ🎵", url=f"{durl}"
+                        ),
+                    ],[
+                        InlineKeyboardButton(
+                            text="🚫Cʟᴏsᴇ", callback_data="close"
                         ),
                     ]
                 ]
@@ -214,17 +218,21 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="💡 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Sanki_BOTs"
+                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
                         ),
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇʀ 🌸", url=f"https://t.me/Black_Rose_QUEEN"
+                            text="Gᴇᴛ ᴍᴜsɪᴄ🎵", url=f"{durl}"
+                        ),
+                    ],[
+                        InlineKeyboardButton(
+                            text="🚫Cʟᴏsᴇ", callback_data="close"
                         ),
                     ]
                 ]
             )
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ** ️🤞"
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs..sᴇᴀʀᴄʜ ғᴏʀ sᴍᴀʟʟ ᴍᴜsɪᴄ.** ️🤞"
             )
             return
         requested_by = message.from_user.first_name
@@ -232,11 +240,11 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("🙃 **ʜᴇʏ ᴛʏᴘᴇ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ...**")
-        await lel.edit("🔍 **ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ...**")
+            return await lel.edit("🙃 **ʜᴇʏ ᴛʏᴘᴇ ᴛʜᴇ sᴏᴍᴇᴛʜɪɴɢ ʀᴇᴀʟ...**")
+        await lel.edit("🔍 **ᴄᴏɴɴᴇᴄᴛɪɴɢ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🔍 **ᴘʟᴀʏɪɴɢ ᴠɪᴀ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ...**")
+        await lel.edit("🔍 **ᴡᴀɪᴛɪɴɢ ᴛᴏ ᴘʟᴀʏ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -263,19 +271,25 @@ async def play(_, message: Message):
             return
 
         keyboard = InlineKeyboardMarkup(
-            [
                 [
-                    InlineKeyboardButton(
-                        text="💡 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Sanki_BOTs"
-                    ),
-                    InlineKeyboardButton(text="ᴏᴡɴᴇʀ 🌸", url=f"https://t.me/Black_Rose_QUEEN"),
+                    [
+                        InlineKeyboardButton(
+                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
+                        ),
+                        InlineKeyboardButton(
+                            text="Gᴇᴛ ᴍᴜsɪᴄ🎵", url=f"{durl}"
+                        ),
+                    ],[
+                        InlineKeyboardButton(
+                            text="🚫Cʟᴏsᴇ", callback_data="close"
+                        ),
+                    ]
                 ]
-            ]
         )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ** ️🤞"
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs..sᴇᴀʀᴄʜ ғᴏʀ sᴍᴀʟʟ ᴍᴜsɪᴄ** ️🤞"
             )
             return
         requested_by = message.from_user.first_name
