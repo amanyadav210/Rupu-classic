@@ -111,26 +111,26 @@ async def play(_, message: Message):
                 try:
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
-                    await lel.edit("⚠️ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ғɪʀsᴛ ⚠️")
+                    await lel.edit("⚠️ **ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ғɪʀsᴛ ⚠️**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "ɴᴀɴᴅᴜ's ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ 👍🏻 ɴᴏᴡ ᴘʟᴀʏ ʏᴏᴜʀ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ ❣️"
+                        message.chat.id, "**ɴᴀɴᴅᴜ's ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ 👍🏻 ɴᴏᴡ ᴘʟᴀʏ ʏᴏᴜʀ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ** ❣️"
                     )
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"⚠️ ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ ⚠️ ᴄʜᴇᴄᴋ ᴍᴀʏʙᴇ ɴᴀɴᴅᴜ's ᴀssɪᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ᴏʀ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ."
+                        f"⚠️ **ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ ⚠️ ᴄʜᴇᴄᴋ ᴍᴀʏʙᴇ ɴᴀɴᴅᴜ's ᴀssɪᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ᴏʀ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ**."
                     )
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"😒 ɴᴀɴᴅᴜ's ᴀssɪsᴛᴀɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴏ sᴇɴᴅ /play ᴄᴏᴍᴍᴀɴᴅ ғɪʀsᴛ ᴛᴏ ᴊᴏɪɴ ᴀssɪsᴛᴀɴᴛ ʜᴇʀᴇ."
+            f"😒 **ɴᴀɴᴅᴜ's ᴀssɪsᴛᴀɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴏ sᴇɴᴅ /play ᴄᴏᴍᴍᴀɴᴅ ғɪʀsᴛ ᴛᴏ ᴊᴏɪɴ ᴀssɪsᴛᴀɴᴛ ʜᴇʀᴇ**."
         )
         return
 
@@ -144,7 +144,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"🙃 ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ ️🤞."
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ** ️🤞."
             )
 
         file_name = get_file_name(audio)
@@ -224,7 +224,7 @@ async def play(_, message: Message):
             )
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"🙃 ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ ️🤞"
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ** ️🤞"
             )
             return
         requested_by = message.from_user.first_name
@@ -232,11 +232,11 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("🙃 ʜᴇʏ ᴛʏᴘᴇ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ...")
-        await lel.edit("🔍 ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ...")
+            return await lel.edit("🙃 **ʜᴇʏ ᴛʏᴘᴇ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ...**")
+        await lel.edit("🔍 **ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🔍 ᴘʟᴀʏɪɴɢ ᴠɪᴀ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ...")
+        await lel.edit("🔍 **ᴘʟᴀʏɪɴɢ ᴠɪᴀ ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -258,7 +258,7 @@ async def play(_, message: Message):
                 secmul *= 60
 
         except Exception as e:
-            await lel.edit("⚠️ sᴏʀʀʏ sᴏɴɢ ɴᴀᴍᴇ ᴡʀᴏɴɢ, ᴛʀʏ ᴡɪᴛʜ ʀɪɢʜᴛ ɴᴀᴍᴇ 😾😒")
+            await lel.edit("⚠️ **sᴏʀʀʏ sᴏɴɢ ɴᴀᴍᴇ ᴡʀᴏɴɢ, ᴛʀʏ ᴡɪᴛʜ ʀɪɢʜᴛ ɴᴀᴍᴇ** 😾😒")
             print(str(e))
             return
 
@@ -275,7 +275,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"🙃 ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ ️🤞"
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs, & ᴛʜɪs ɪs ɴᴏᴛ ᴀʟʟᴏᴡ ᴛᴏ ᴘʟᴀʏ** ️🤞"
             )
             return
         requested_by = message.from_user.first_name
@@ -290,7 +290,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="🏷 ɴᴀᴍᴇ : {}\n⏱ ᴅᴜʀᴀᴛɪᴏɴ : {}\n💡 ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ : {}".format(
+            caption="🏷 ɴᴀᴍᴇ : [{title[:80]}]({url})\n⏱ ᴅᴜʀᴀᴛɪᴏɴ : {}\n💡 ᴀᴅᴅᴇᴅ ᴛᴏ ǫᴜᴇᴜᴇ : {}".format(
                 title,
                 duration,
                 position,
@@ -313,7 +313,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="🏷 ɴᴀᴍᴇ : {}\n🕒 ᴅᴜʀᴀᴛɪᴏɴ : {}\n🎧 ᴀᴅᴅᴇᴅ ʙʏ : {}".format(
+            caption="🏷 ɴᴀᴍᴇ : [{title[:80]}]({url})\n🕒 ᴅᴜʀᴀᴛɪᴏɴ : {}\n🎧 ᴀᴅᴅᴇᴅ ʙʏ : {}".format(
                 title, duration, message.from_user.mention()
             ),
         )
