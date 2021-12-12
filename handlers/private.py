@@ -12,23 +12,23 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hᴇʏ Hᴏᴛᴛɪᴇ Sʜᴏᴛᴛɪᴇ {message.from_user.first_name}** \n
 **I Aᴍ A Mᴜsɪᴄ Sᴇʀᴠᴇʀ Fᴏʀ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Vᴏɪᴄᴇ Cʜᴀᴛ & Cʜᴀɴɴᴇʟs 😉🌸 Usᴇ Mᴇ Hᴀʀᴅʟʏ & Eɴᴊᴏʏ Mᴜsɪᴄ Wɪᴛʜ Sᴜᴘᴇʀ Dᴜᴘᴇʀ Qᴜᴀʟɪᴛʏ 😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝐍 𝐢 𝐭 𝐫 𝐢 𝐜 𓆩👅𓆪](https://t.me/official_nitric)**.
+Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝑹𝑼𝑷𝑷𝑨](https://t.me/ITZ_RUPU)**.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌸 ᴏᴡɴᴇʀ 🌸", url="https://t.me/Sanki_Owner")
+                        "💞 ᴏᴡɴᴇʀ ", url="https://t.me/ITZ_RUPU")
                   ],[
                     InlineKeyboardButton(
-                        "💡 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Sanki_BOTs"
+                        "🔥Aɴʏ Pʀᴏʙʟᴇᴍ", url="https://t.me/shivamdemon"
                     ),
                     InlineKeyboardButton(
-                        "ʀᴇᴘᴏ 🎈", url="https://github.com/NitricXd/NanduMusic"
+                        "🐬 Cᴏᴍᴍᴀɴᴅ", url="https://telegra.ph/%F0%9D%90%92%F0%9D%9F%92%F0%9D%90%92%F0%9D%90%87%F0%9D%90%88%F0%9D%90%95-%F0%9D%90%97%F0%9D%90%83--%F0%9D%99%B8-%F0%9D%90%80%F0%9D%94%AA-E-%F0%9D%97%A0%F0%9D%94%AC%E2%84%95%F0%93%82%B8-10-16"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "⁉️ ʜᴇʟᴘ ‼️", url="https://telegra.ph/N%E1%B4%80%C9%B4%E1%B4%85%E1%B4%9C-M%E1%B4%9Cs%C9%AA%E1%B4%84-S%E1%B4%87%CA%80%E1%B4%A0%E1%B4%87%CA%80-12-12"
+                        "Aᴅᴅ ᴍʏ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴀʀʟɪɴɢ🤭.", url=f"https://t.me/itzrupu_vcbot"
                     )]
             ]
         ),
@@ -37,12 +37,12 @@ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝐍 𝐢 𝐭 𝐫 𝐢 𝐜 𓆩👅𓆪](http
 
 @Client.on_message(filters.command("alive") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""ɴᴀɴᴅᴜ's sᴇʀᴠᴇʀ ɪs ᴀʟɪᴠᴇ 😈""",
+      await message.reply_text("""Bᴏᴛ ᴏɴ Fᴏʀᴍ ʙᴀʙʏ 😈""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💡 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Sanki_BOTs")
+                        "😎 ᴜᴘᴅᴀᴛᴇs", url="https://t.me/Shivamdemon")
                 ]
             ]
         )
