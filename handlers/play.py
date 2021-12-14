@@ -440,7 +440,7 @@ async def play(_, message: Message):
 
             await lel.edit(
 
-                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs..sᴇᴀʀᴄʜ ғᴏʀ sᴍᴀʟʟ ᴍᴜsɪᴄ.** ️🤞
+                f"🙃 **ʜᴇʏ ʏᴏᴜʀ sᴏɴɢ ᴅᴜʀᴀᴛɪᴏɴ ɪs {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs..sᴇᴀʀᴄʜ ғᴏʀ sᴍᴀʟʟ ᴍᴜsɪᴄ.** ️🤞"
 
             )
 
