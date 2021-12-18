@@ -18,7 +18,7 @@ ACTV_CALLS = []
 @authorized_users_only
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("👉 **ᴍᴜsɪᴄ ᴘᴀᴜsᴇᴅ**...!!")
+    await message.reply_text("👉 **.ƘƛƦƊƖƳƛ ƤƛƲƧЄ..!!")
 
 
 @Client.on_message(command(["resume"]) & other_filters)
@@ -26,7 +26,7 @@ async def pause(_, message: Message):
 @authorized_users_only
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("🎧 **ᴍᴜsɪᴄ ʀᴇsᴜᴍᴇᴅ**...!!")
+    await message.reply_text("🎧 **ӇƠ ƓƛƳƛ ƦЄƧƲMЄ**...!!")
 
 
 @Client.on_message(command(["end"]) & other_filters)
@@ -39,7 +39,7 @@ async def stop(_, message: Message):
         pass
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("🔴 **sᴛᴏᴘᴘᴇᴅ ᴘʟᴀʏɪɴɢ**...!!")
+    await message.reply_text("🔴 **ƧƠƝƓ ƁƛƝƊ**...!!")
 
 @Client.on_message(command(["skip"]) & other_filters)
 @errors
@@ -65,4 +65,4 @@ async def skip(_, message: Message):
                     ),
                 ),
             )
-    await message.reply_text("⏩ **ᴛʀᴀᴄᴋ sᴋɪᴘᴘᴇᴅ**...!!")
+    await message.reply_text("⏩ ** ƘƛƦƊƖƛ ƧƘƖƤ**...!!")
