@@ -59,7 +59,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit("⚠️ ƤЄƦMƖƧƧƖƠƝƛƇƇЄƧƧ ƑƛƖԼЄƊ ƤЄƦMƖƧƖƠƝ ԼƠ MЄƦЄ ƠƜƝЄƦ ƧЄ...")
+        m.edit("⚠️ ƤЄƦMƖƧƧƖƠƝ ƛƇƇЄƧƧ ƑƛƖԼЄƊ ƤЄƦMƖƧƖƠƝ ԼƠ MЄƦЄ ƠƜƝЄƦ ƧЄ...")
         print(e)
 
     try:
