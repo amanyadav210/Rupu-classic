@@ -237,7 +237,7 @@ async def play(_, message: Message):
 
                 except:
 
-                    await lel.edit("⚠️ **ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ғɪʀsᴛ ⚠️**")
+                    await lel.edit("⚠️ **ƁӇƠƧƊƖƘЄ ƛƊMƖƝ ƊƠ ƤЄӇԼЄ ⚠️**")
 
                     return
 
@@ -249,7 +249,7 @@ async def play(_, message: Message):
 
                     await USER.send_message(
 
-                        message.chat.id, "**ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ 👍🏻 ɴᴏᴡ ᴘʟᴀʏ ʏᴏᴜʀ ᴍᴜsɪᴄ ғʀᴇᴇʟʏ** ❣️"
+                        message.chat.id, "**ƛƧƧƖƧƬƛƝƬ ƝЄ ʆƠƖƝ ƘƛƦԼƖƳƛ ƁƛʆƛƠ ƓƛƝƛ** ❣️"
 
                     )
 
@@ -263,7 +263,7 @@ async def play(_, message: Message):
 
                     await lel.edit(
 
-                        f" ⚠️ **ғʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ ⚠️ ᴄʜᴇᴄᴋ ᴍᴀʏʙᴇ ᴀssɪsᴛᴀɴᴛ ɪs ʙᴀɴɴᴇᴅ ᴏʀ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ**."
+                        f" ⚠️ **ƑԼƠƠƊ ƜƛƖƬ ЄƦƦƠƦ ⚠️ ƇӇЄƇƘ MƛƳƁЄ ƛƧƧƖƧƬƛƝƬ ƖƧ ƁƛƝƝƝЄƊ ƠƦ ƝƠƬ ƛƔƛƖԼƛƁԼ ƖƝ ƬӇƖƧ ƇӇƛƬ**."
 
                     )
 
@@ -275,7 +275,7 @@ async def play(_, message: Message):
 
         await lel.edit(
 
-            f"😒 **ᴀssɪsᴛᴀɴᴛ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜɪs ᴄʜᴀᴛ sᴏ sᴇɴᴅ /userbotjoin ᴄᴏᴍᴍᴀɴᴅ ғɪʀsᴛ ᴛᴏ ᴊᴏɪɴ ᴀssɪsᴛᴀɴᴛ ʜᴇʀᴇ**"
+            f"😒 **ƛƧƖƧƬƛƝƬ ƝƠƬ ƛƔƛƖԼƛƁԼЄ ƖƝ ƬӇƖƧ ƇӇƛƬ ƧƠ ƧЄƝƊ /userbotjoin ƇƠMMƛƝƊ ƑƖƦƧƬ ƬƠ ʆƠƖƝ ƛƧƧƖƧƬƛƝƬ ӇЄƦЄ**"
 
         )
 
@@ -327,9 +327,10 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
+                        text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/A_4_AMAN_0fficial
+                        "
                     ),
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ🎵", url=f"https://t.me/shivamdemon"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ🎵", url=f"https://t.me/A_4_AMAN_0fficial"),
                 ]
             ]
         )
@@ -396,7 +397,7 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
+                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/A_4_AMAN_0fficial"
                         ),
                         InlineKeyboardButton(
                             text="Gᴇᴛ ᴍᴜsɪᴄ🎵", url=f"{durl}"
@@ -423,7 +424,7 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
+                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/A_4_AMAN_0fficial"
                         ),
                         InlineKeyboardButton(
                             text="Gᴇᴛ ᴍᴜsɪᴄ🎵", url=f"{durl}"
@@ -520,7 +521,7 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_rupu"
+                            text="❣️ Oᴡɴᴇʀ", url=f"https://t.me/itz_A_4_AMAN_0fficial"
                         ),
                         InlineKeyboardButton(
                             text="Gᴇᴛ ᴍᴜsɪᴄ🎵", url=f"{durl}"
