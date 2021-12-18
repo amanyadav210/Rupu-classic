@@ -12,7 +12,7 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hᴇʏ ɪᴛs {bn}** \n
 **I ᴀᴍ ʟᴀᴢʏ Aʙᴏᴜᴛ ᴛʏᴘɪɴɢ sᴏᴍᴇᴛʜɪɴɢ ɴᴇᴡ..ƳЄ ЄƘ ƁƠƬ ӇƛƖ ƳЄ ƓƛƝƛ ƁƛƝƛƝЄ ƘЄ ԼƖƳЄ ƁƛƝƛ ӇƛƖ.😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [𝑹𝑼𝑷𝑷𝑨](https://t.me/ITZ_RUPU)**.
+Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [ƛMƛƝ](https://t.me/A_4_AMAN_0fficial)**.
         """,
         reply_markup=InlineKeyboardMarkup(
             [
